@@ -1,1 +1,1 @@
-# shaniabu.CNN_primer_design
+# CNN Primer Design
