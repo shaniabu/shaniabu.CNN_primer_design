@@ -57,10 +57,10 @@ for m in range(0,140):
 df = pd.DataFrame(final_list)
 
 
-df.to_csv("sequences.csv", mode="a", index=False, header=False)
+df.to_csv("sequences.csv", index=False, header=False)
+#df.to_csv("sequences.csv", mode="a", index=False, header=False)
 
-#df.to_csv("alpha_new.csv", mode="a", index=False, header=False)
 
 
-data = pd.read_csv(dataFolder+"sequences.csv", names=["sequences"])
+#data = pd.read_csv(dataFolder+"sequences.csv", names=["sequences"])
 
