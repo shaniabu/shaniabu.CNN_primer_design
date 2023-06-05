@@ -1,5 +1,5 @@
 # CNN Primer Design
-## Introduction 
+## Reference
 The code of this project is based on the code shared on [primers-sars-cov-2](https://github.com/steppenwolf0/primers-sars-cov-2) by the paper [Classification and specific primer design for accurate detection of SARS-CoV-2 using deep learning](https://www.nature.com/articles/s41598-020-80363-5) published on Nature.
 
 ## Data Processing 
