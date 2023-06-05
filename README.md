@@ -22,4 +22,7 @@
 3. Upload sequences.csv and labels.csv to the folder "data". 
 
 ### Create Filters
-1. Run [createCrossVal.ipynb](./GPU_run/code/createCrossVal.ipynb) and move the index files obtained to 
+1. Run [createCrossVal.ipynb](./GPU_run/code/createCrossVal.ipynb) and move the index files obtained to the folder [index](./GPU_run/data/index) in folder data. 
+2. Run [genCreateFilters.ipynb](./GPU_run/code/genCreateFilters.ipynb) to get sorted sequences by class and print filter and max pooling values. 
+3. Move to codes in the folder "filters" in "data", run [posPool.ipynb](./GPU_run/data/filters/posPool.ipynb).
+4. Run [posPool.ipynb](./GPU_run/data/filters/posPool.ipynb).
