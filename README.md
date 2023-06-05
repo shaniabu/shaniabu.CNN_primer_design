@@ -28,4 +28,12 @@
 4. Run [createFeatVector.ipynb](./GPU_run/data/filters/createFeatVector.ipynb) to translate into 21-bps features.
 5. Run [getFeatures.ipynb](./GPU_run/data/filters/getFeatures.ipynb) to reduce to non-repeated sequences.
 6. Run [getFreqMatrix.ipynb](./GPU_run/data/filters/getFreqMatrix.ipynb) to create frequency matrix.
-7. 
+
+### Run CNN model
+1. Create a folder "model" and a folder "results" in the folder "data". 
+2. Run [genRunTrain.ipynb](./GPU_run/code/genRunTrain.ipynb) to get the accuracy and summary of results. 
+
+## Run Feature Selection 
+1. Move the files data_0.csv, features_0.csv, and labels.csv to the folder [data](./get_features/data). 
+2. Run [aBioInf100.py](./get_features/src/aBioInf100.py) in the folder [src](./get_features/src).
+3. Run [summaryMulti.py](./get_features/src/summaryMulti.py) to get the reduced list of most important features and get the accuracy. 
