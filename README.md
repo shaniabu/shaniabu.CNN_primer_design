@@ -9,4 +9,6 @@
 	```
 	df.to_csv("sequences.csv", mode="a", index=False, header=False)
 	```
-	
+3. Add a file labels.csv with numbers from 0 to n, with n=the number of variants in the dataset-1, the number of 0-n numbers corresponds to the order and number of sequences in sequeces.csv. 
+
+## Run CNN with GPU-powered Jupyter Notebooks
