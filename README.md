@@ -24,5 +24,8 @@
 ### Create Filters
 1. Run [createCrossVal.ipynb](./GPU_run/code/createCrossVal.ipynb) and move the index files obtained to the folder [index](./GPU_run/data/index) in folder data. 
 2. Run [genCreateFilters.ipynb](./GPU_run/code/genCreateFilters.ipynb) to get sorted sequences by class and print filter and max pooling values. 
-3. Move to codes in the folder "filters" in "data", run [posPool.ipynb](./GPU_run/data/filters/posPool.ipynb).
-4. Run [posPool.ipynb](./GPU_run/data/filters/posPool.ipynb).
+3. Move to codes in the folder "filters" in "data", run [posPool.ipynb](./GPU_run/data/filters/posPool.ipynb) to get most important position.
+4. Run [createFeatVector.ipynb](./GPU_run/data/filters/createFeatVector.ipynb) to translate into 21-bps features.
+5. Run [getFeatures.ipynb](./GPU_run/data/filters/getFeatures.ipynb) to reduce to non-repeated sequences.
+6. Run [getFreqMatrix.ipynb](./GPU_run/data/filters/getFreqMatrix.ipynb) to create frequency matrix.
+7. 
