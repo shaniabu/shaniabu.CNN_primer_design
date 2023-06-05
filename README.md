@@ -1,4 +1,7 @@
 # CNN Primer Design
+## Introduction 
+The code of this project is based on the code shared on [primers-sars-cov-2](https://github.com/steppenwolf0/primers-sars-cov-2) by the paper [Classification and specific primer design for accurate detection of SARS-CoV-2 using deep learning](https://www.nature.com/articles/s41598-020-80363-5) published on Nature.
+
 ## Data Processing 
 1. In the [data](./data) folder, create separate raw data csv files(with FASTA format) with different variants in the [raw_data](./data/raw_data) folder. 
 2. Using [data_processing.py](./data/data_processing.py), read csv files by chaning the file names and adding mode="a" starting the second variant.
