@@ -14,4 +14,7 @@
 ## Run CNN with GPU-powered Jupyter Notebooks
 ### Set up GPU-powered Jupyter Notebook
 1. UCSD's [Data Science/Machine Learning Platform (DSMLP)](https://blink.ucsd.edu/faculty/instruction/tech-guide/dsmlp) provides undergraduate and graduate students with access to research-class CPU/GPU resources.
-2. 
+2. Submit the [DSMLP Independent Study & Student Research Access Request form](https://docs.google.com/forms/d/e/1FAIpQLSdEZvIfDhSJWz9-uxCCrhuCWOdCKPQwLksy-RdHfOQb3LQEkw/viewform) to get request access to GPU-powered Jupyter Notebook (with tensorflow, at least 4GB). 
+
+### Create Filters
+1. Upload the 
