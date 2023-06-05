@@ -12,3 +12,5 @@
 3. Add a file labels.csv with numbers from 0 to n, with n=the number of variants in the dataset-1, the number of 0-n numbers corresponds to the order and number of sequences in sequeces.csv. 
 
 ## Run CNN with GPU-powered Jupyter Notebooks
+### Set up GPU-powered Jupyter Notebook
+1. UCSD's [Data Science/Machine Learning Platform (DSMLP)](https://blink.ucsd.edu/faculty/instruction/tech-guide/dsmlp/#Independent-Study,-Student-Rese) provides undergraduate and graduate students with access to research-class CPU/GPU resources
