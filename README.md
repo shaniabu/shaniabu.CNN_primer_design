@@ -17,4 +17,6 @@
 2. Submit the [DSMLP Independent Study & Student Research Access Request form](https://docs.google.com/forms/d/e/1FAIpQLSdEZvIfDhSJWz9-uxCCrhuCWOdCKPQwLksy-RdHfOQb3LQEkw/viewform) to get request access to GPU-powered Jupyter Notebook (with tensorflow, at least 4GB). 
 
 ### Create Filters
-1. Upload the 
+1. Create a folder code and upload the code files in [code](./GPU_run/code) to Jypterhub.
+2. Create a folder data and two sub-folders index and filters, and upload the code files in [filters](./GPU_run/data/filters) to Jypterhub.
+3. 
